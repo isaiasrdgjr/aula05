@@ -1,5 +1,5 @@
 # for n in range(5):
-#     print('Olá mundo!') 
+#     print('Olá mundo!')
 
 # for n in range(5):
 #     prin t(n)
@@ -17,6 +17,14 @@
 #   print(i)
 
 
-for n in range(3):
-    nome = input('Informe o nome: ')
-    print(f'O nome da pessoa é: {nome}')
+# for n in range(3):
+#    print(f'Pessoa {n+1}')
+#    nome = input('Informe o nome: ')
+#    print(f'O nome da pessoa é: {nome}')
+
+
+soma = 0.0
+for num in range(5):
+    numero = float(input('Informe o número: '))
+    soma += numero
+    print(f'igual a: {soma:.2f}')
